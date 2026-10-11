@@ -1,0 +1,20 @@
+{
+  "name": "cinecouch",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "server",
+    "frontend"
+  ],
+  "scripts": {
+    "predev": "node scripts/free-port.js",
+    "dev": "npm run build -w shared && concurrently -n server,web -c blue,green \"npm run dev -w server\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w shared && npm run build -w server && npm run build -w frontend",
+    "start": "concurrently -n server,web -c blue,green \"npm run start -w server\" \"npm run start -w frontend\"",
+    "test": "npm run test -w shared && npm run test -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
