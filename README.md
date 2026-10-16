@@ -2,7 +2,7 @@
 
 ### Your little corner, together.
 
-Cove is a cozy, private watch-party experience for sharing YouTube videos with people who are somewhere else. Create a room, send the link, and settle in with synchronized playback, room chat, lightweight reactions, and optional peer-to-peer video calling.
+Cove is a cozy, private watch-party experience for co-watching YouTube videos with people who are somewhere else. Create a room, send the link, and settle in with synchronized playback, room chat, lightweight reactions, and optional peer-to-peer video calling.
 
 > Built for the moments when distance should not mean watching alone.
 
